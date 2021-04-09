@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color-box {
+    $size: 300px;
+
+    width: $size;
+    height: $size;
+
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.35s ease-in;
+}

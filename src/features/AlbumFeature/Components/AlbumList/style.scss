@@ -1,0 +1,10 @@
+.album__list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0 -10px;
+    & .album__item {
+        margin: 0 10px;
+    }
+}

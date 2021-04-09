@@ -1,0 +1,10 @@
+.album__item {
+    & img {
+        border-radius: 5px;
+        width: 190px;
+    }
+    & p {
+        font-weight: bold;
+        font-size: 0.75rem;
+    }
+}
